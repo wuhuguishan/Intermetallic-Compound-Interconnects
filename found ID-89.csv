@@ -1,0 +1,105 @@
+﻿compound_name,mp_id,formula,efermi,energy_above_hull,cif_file,status,composition
+CuMo,nan,,,,,Not Found,
+CuOs,nan,,,,,Not Found,
+Cu2W,nan,,,,,Not Found,
+Cu2Os,nan,,,,,Not Found,
+Cu3W,mp-1183970,Cu3W,"(7.4336378100000005,)",,foound ID 89-cif\mp-1183970_Cu3W.cif,Success,Cu3 W1
+Cu4W,nan,,,,,Not Found,
+CoOs,mp-1226000,CoOs,"(7.13791189,)",,foound ID 89-cif\mp-1226000_CoOs.cif,Success,Co1 Os1
+Co2Os,nan,,,,,Not Found,
+Co3Os,mp-1183718,Co3Os,"(6.76684078,)",,foound ID 89-cif\mp-1183718_Co3Os.cif,Success,Co3 Os1
+Co4W,nan,,,,,Not Found,
+Co4Os,mp-1226016,Co4Os,"(5.7510394,)",,foound ID 89-cif\mp-1226016_Co4Os.cif,Success,Co4 Os1
+RuBe,nan,,,,,Not Found,
+RuRh,mp-1219503,RuRh,"(7.84041512,)",,foound ID 89-cif\mp-1219503_RuRh.cif,Success,Ru1 Rh1
+Ru2Be,nan,,,,,Not Found,
+Ru2Co,nan,,,,,Not Found,
+Ru2Ni,nan,,,,,Not Found,
+Ru2Cu,nan,,,,,Not Found,
+Ru2Rh,nan,,,,,Not Found,
+Ru2Pd,nan,,,,,Not Found,
+Ru2Os,nan,,,,,Not Found,
+Ru2Ir,nan,,,,,Not Found,
+Ru3Be,mp-1183473,BeRu3,"(7.28523796,)",,foound ID 89-cif\mp-1183473_Ru3Be.cif,Success,Be1 Ru3
+Ru3Al,nan,,,,,Not Found,
+Ru3Cr,nan,,,,,Not Found,
+Ru3Co,nan,,,,,Not Found,
+Ru3Ni,nan,,,,,Not Found,
+Ru3Cu,mp-1184121,CuRu3,"(7.78081972,)",,foound ID 89-cif\mp-1184121_Ru3Cu.cif,Success,Cu1 Ru3
+Ru3Rh,mp-1186926,Ru3Rh,"(8.16513356,)",,foound ID 89-cif\mp-1186926_Ru3Rh.cif,Success,Ru6 Rh2
+Ru3Pd,nan,,,,,Not Found,
+Ru3Os,mp-974326,OsRu3,"(8.61862993,)",,foound ID 89-cif\mp-974326_Ru3Os.cif,Success,Os2 Ru6
+Ru3Ir,mp-862620,IrRu3,"(8.95199114,)",,foound ID 89-cif\mp-862620_Ru3Ir.cif,Success,Ir2 Ru6
+Ru4Be,nan,,,,,Not Found,
+Ru4Mg,nan,,,,,Not Found,
+Ru4Al,nan,,,,,Not Found,
+Ru4Cr,nan,,,,,Not Found,
+Ru4Co,nan,,,,,Not Found,
+Ru4Ni,nan,,,,,Not Found,
+Ru4Cu,nan,,,,,Not Found,
+Ru4Zn,nan,,,,,Not Found,
+Ru4Rh,nan,,,,,Not Found,
+Ru4Pd,nan,,,,,Not Found,
+Ru4Os,nan,,,,,Not Found,
+Ru4Ir,nan,,,,,Not Found,
+Ru4Pt,nan,,,,,Not Found,
+Ru4V,mp-1216276,VRu4,"(7.6783912,)",,foound ID 89-cif\mp-1216276_Ru4V.cif,Success,V1 Ru4
+RhOs,nan,,,,,Not Found,
+Rh2Mo,nan,,,,,Not Found,
+Rh2Ru,nan,,,,,Not Found,
+Rh2Os,nan,,,,,Not Found,
+Rh2Ir,nan,,,,,Not Found,
+Rh3Nb,mp-2449,NbRh3,"(7.03111414,)",,foound ID 89-cif\mp-2449_Rh3Nb.cif,Success,Nb1 Rh3
+Rh3Nb,mp-1186230,NbRh3,"(6.73238713,)",,foound ID 89-cif\mp-1186230_Rh3Nb.cif,Success,Nb2 Rh6
+Rh3Nb,mp-1191559,NbRh3,"(6.69776811,)",,foound ID 89-cif\mp-1191559_Rh3Nb.cif,Success,Nb6 Rh18
+Rh3Mo,mp-1221397,MoRh3,"(7.08411206,)",,foound ID 89-cif\mp-1221397_Rh3Mo.cif,Success,Mo1 Rh3
+Rh3Mo,mp-30787,MoRh3,"(7.73792742,)",,foound ID 89-cif\mp-30787_Rh3Mo.cif,Success,Mo2 Rh6
+Rh3Ru,mp-974335,RuRh3,"(7.53236038,)",,foound ID 89-cif\mp-974335_Rh3Ru.cif,Success,Ru1 Rh3
+Rh3Ru,mp-974341,RuRh3,"(7.44259009,)",,foound ID 89-cif\mp-974341_Rh3Ru.cif,Success,Ru2 Rh6
+Rh3Os,mp-1186377,OsRh3,"(7.55574361,)",,foound ID 89-cif\mp-1186377_Rh3Os.cif,Success,Os2 Rh6
+Rh3Ir,mp-1184768,IrRh3,"(7.88143218,)",,foound ID 89-cif\mp-1184768_Rh3Ir.cif,Success,Ir1 Rh3
+Rh3Ir,mp-1184794,IrRh3,"(7.75389847,)",,foound ID 89-cif\mp-1184794_Rh3Ir.cif,Success,Ir1 Rh3
+Rh4Nb,nan,,,,,Not Found,
+Rh4Mo,nan,,,,,Not Found,
+Rh4Ru,mp-1219522,RuRh4,"(6.9783865,)",,foound ID 89-cif\mp-1219522_Rh4Ru.cif,Success,Ru1 Rh4
+Rh4Os,nan,,,,,Not Found,
+Rh4Ir,nan,,,,,Not Found,
+IrBe,nan,,,,,Not Found,
+IrMo,mp-1221414,MoIr,"(8.7987041,)",,foound ID 89-cif\mp-1221414_IrMo.cif,Success,Mo1 Ir1
+IrMo,mp-11481,MoIr,"(9.00758376,)",,foound ID 89-cif\mp-11481_IrMo.cif,Success,Mo2 Ir2
+IrPd,mp-1223675,IrPd,"(6.96809153,)",,foound ID 89-cif\mp-1223675_IrPd.cif,Success,Ir1 Pd1
+IrOs,mp-1223655,IrOs,"(9.60539795,)",,foound ID 89-cif\mp-1223655_IrOs.cif,Success,Ir1 Os1
+IrV,mp-982070,VIr,"(8.33995937,)",,foound ID 89-cif\mp-982070_IrV.cif,Success,V4 Ir4
+IrV,mp-1178810,VIr,"(8.16245789,)",,foound ID 89-cif\mp-1178810_IrV.cif,Success,V16 Ir16
+IrV,mp-1178808,VIr,"(8.14341824,)",,foound ID 89-cif\mp-1178808_IrV.cif,Success,V16 Ir16
+IrV,mp-1079582,VIr,"(8.09395374,)",,foound ID 89-cif\mp-1079582_IrV.cif,Success,V4 Ir4
+IrV,mp-1204410,VIr,"(8.17205427,)",,foound ID 89-cif\mp-1204410_IrV.cif,Success,V16 Ir16
+IrV,mp-1079131,VIr,"(8.2430185,)",,foound ID 89-cif\mp-1079131_IrV.cif,Success,V4 Ir4
+IrV,mp-1281,VIr,"(8.25283533,)",,foound ID 89-cif\mp-1281_IrV.cif,Success,V2 Ir2
+IrV,mp-569250,VIr,"(8.28769836,)",,foound ID 89-cif\mp-569250_IrV.cif,Success,V2 Ir2
+IrTi,mp-12594,TiIr,"(8.37989576,)",,foound ID 89-cif\mp-12594_IrTi.cif,Success,Ti1 Ir1
+IrTi,mp-1235,TiIr,"(8.1599512,)",,foound ID 89-cif\mp-1235_IrTi.cif,Success,Ti2 Ir2
+Ir2Co,nan,,,,,Not Found,
+Ir2Nb,nan,,,,,Not Found,
+Ir2Mo,nan,,,,,Not Found,
+Ir2Ru,nan,,,,,Not Found,
+Ir2Rh,nan,,,,,Not Found,
+Ir2Pd,nan,,,,,Not Found,
+Ir2Os,nan,,,,,Not Found,
+Ir2V,nan,,,,,Not Found,
+Ir2Ti,nan,,,,,Not Found,
+Ir3Nb,mp-1339,NbIr3,"(9.23170926,)",,foound ID 89-cif\mp-1339_Ir3Nb.cif,Success,Nb1 Ir3
+Ir3Nb,mp-1186231,NbIr3,"(8.89601322,)",,foound ID 89-cif\mp-1186231_Ir3Nb.cif,Success,Nb2 Ir6
+Ir3Mo,mp-11482,MoIr3,"(9.91757594,)",,foound ID 89-cif\mp-11482_Ir3Mo.cif,Success,Mo2 Ir6
+Ir3Ru,mp-974358,Ir3Ru,"(9.68436355,)",,foound ID 89-cif\mp-974358_Ir3Ru.cif,Success,Ir3 Ru1
+Ir3Pd,nan,,,,,Not Found,
+Ir3In,nan,,,,,Not Found,
+Ir3W,mp-30745,Ir3W,"(9.64665298,)",,foound ID 89-cif\mp-30745_Ir3W.cif,Success,Ir6 W2
+Ir3Os,mp-1184761,Ir3Os,"(10.07362072,)",,foound ID 89-cif\mp-1184761_Ir3Os.cif,Success,Ir3 Os1
+Ir3Ti,mp-1089,TiIr3,"(9.16744356,)",,foound ID 89-cif\mp-1089_Ir3Ti.cif,Success,Ti1 Ir3
+Ir4Nb,nan,,,,,Not Found,
+Ir4Mo,mp-1221426,MoIr4,"(9.28971287,)",,foound ID 89-cif\mp-1221426_Ir4Mo.cif,Success,Mo1 Ir4
+Ir4Pd,nan,,,,,Not Found,
+Ir4In,nan,,,,,Not Found,
+Ir4W,mp-1223666,Ir4W,"(9.04346879,)",,foound ID 89-cif\mp-1223666_Ir4W.cif,Success,Ir4 W1
+Ir4Os,mp-1223677,Ir4Os,"(9.36166069,)",,foound ID 89-cif\mp-1223677_Ir4Os.cif,Success,Ir4 Os1
