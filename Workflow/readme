@@ -1,0 +1,78 @@
+文件夹层次关系图
+workflow(文件夹)--
+1--  .vasp文件（单个，不用建立文件夹）
+2-- auto_dir.slurm文件（建立每个.vasp对应的文件夹，主要调用Auto_dir.py文件）
+3.-- Auto_dir.py文件（主要是建立每个.vasp对应的文件夹，并且把INCAR文件夹复制到每个文件夹中）
+4-- incar文件夹(分门别类 opt结构优化----scf单点结算-----nscf非自洽计算，本计算只用opt，后续在基础上修改参数 )
+5--IC-FZ-V.slurm  （积分计算xx方向任务提交）
+6--yy.slurm （积分计算yy方向任务提交）
+7--zz.slurm （积分计算zz方向任务提交）
+8--IC-FZ-V.py （积分计算脚本）
+9--vel.slurm （速度计算任务提交脚本）
+10--job.slurm （每一个作业运行的脚本,主要用在自动提交流程中的基本脚本）
+11.--check_convergence.sh （检查结构优化是否收敛脚本，自动计算的工作流。）
+12.--handle_INCAR_scf （处理scf单点结算的INCAR文件脚本，主要是修改INCAR中的部分参数）
+13.--handle_INCAR_nscf （处理nscf非自洽计算的INCAR文件脚本，主要是修改INCAR中的部分参数。同时用vaspkit修改KPOINTS文件中K点密度）
+14.--distri_doc.slurm(将其他文件通过终端直接进行移动到每个文件夹)
+15.--documents.slurm(可选，主要用在快速积分任务提交)
+
+
+1.首先通过把vesta生成的“.vasp”文件（这一步是手动的）
+2.然后通过auto_dir.slurm文件（调用Auto_dir.py文件。
+        1.根据.vasp文件的文件名，生成对应的文件夹名。
+        2.把.vasp文件复制到对应的文件夹中，并重命名为POSCAR。
+        3.把incar文件夹中用到的文件移动到POSCAR所在文件夹。
+        4.用vaspkit生成所需的KPOINTS文件和POTCAR文件）
+3.提交auto_dir.slurm文件，建立好所有的计算文件夹后.每个文件夹中包含POSCAR,INCAR,KPOINTS,POTCAR文件4个文件
+
+            workflow(文件夹)--
+            1--  每个物质的文件夹（n个）
+                --1.INCAR
+                --2.POSCAR
+                --3.KPOINTS
+                --4.POTCAR
+            2--IC-FZ-V.slurm  （积分计算xx方向任务提交）
+            3--yy.slurm （积分计算yy方向任务提交）
+            4--zz.slurm （积分计算zz方向任务提交）
+            5--IC-FZ-V.py （积分计算脚本）
+            6--vel.slurm （速度计算任务提交脚本）
+            7--job.slurm （每一个作业运行的脚本,主要用在自动提交流程中的基本脚本）
+            8.--check_convergence.sh （检查结构优化是否收敛脚本，自动计算的工作流。）
+            9.--handle_INCAR_scf （处理scf单点结算的INCAR文件脚本，主要是修改INCAR中的部分参数）
+            10.--handle_INCAR_nscf （处理nscf非自洽计算的INCAR文件脚本，主要是修改INCAR中的部分参数。同时用vaspkit修改KPOINTS文件中K点密度）
+            11.--distri_doc.slurm(将其他文件通过终端直接进行移动到每个文件夹)
+            12.--documents.slurm(可选，主要用在快速积分任务提交)
+
+
+4.提交distri_doc.slurm文件，将5-13这9个文件移动到每个文件夹中。（IC-FZ-V.slurm,yy.slurm,zz.slurm,IC-FZ-V.py ,vel.slurm,job.slurm,check_convergence.sh,handle_INCAR_scf,handle_INCAR_nscf）
+
+            workflow(文件夹)--
+            1--  每个物质的文件夹（n个）
+                --1.INCAR
+                --2.POSCAR
+                --3.KPOINTS
+                --4.POTCAR
+                --5.IC-FZ-V.slurm  （积分计算xx方向任务提交）
+                --6.yy.slurm （积分计算yy方向任务提交）
+                --7.zz.slurm （积分计算zz方向任务提交）
+                --8.IC-FZ-V.py （积分计算脚本）
+                --9.vel.slurm （速度计算任务提交脚本）
+                --10.job.slurm （每一个作业运行的脚本,主要用在自动提交流程中的基本脚本）
+                --11.check_convergence.sh （检查结构优化是否收敛脚本，自动计算的工作流。）
+                --12.handle_INCAR_scf （处理scf单点结算的INCAR文件脚本，主要是修改INCAR中的部分参数）
+                --13.handle_INCAR_nscf （处理nscf非自洽计算的INCAR文件脚本，主要是修改INCAR中的部分参数。同时用vaspkit修改KPOINTS文件中K点密度）
+            2--IC-FZ-V.slurm  （积分计算xx方向任务提交）
+            3--yy.slurm （积分计算yy方向任务提交）
+            4--zz.slurm （积分计算zz方向任务提交）
+            5--IC-FZ-V.py （积分计算脚本）
+            6--vel.slurm （速度计算任务提交脚本）
+            7--job.slurm （每一个作业运行的脚本,主要用在自动提交流程中的基本脚本）
+            8.--check_convergence.sh （检查结构优化是否收敛脚本，自动计算的工作流。）
+            9.--handle_INCAR_scf （处理scf单点结算的INCAR文件脚本，主要是修改INCAR中的部分参数）
+            10.--handle_INCAR_nscf （处理nscf非自洽计算的INCAR文件脚本，主要是修改INCAR中的部分参数。同时用vaspkit修改KPOINTS文件中K点密度）
+            11.--distri_doc.slurm(将其他文件通过终端直接进行移动到每个文件夹)
+            12.--documents.slurm(可选，主要用在快速积分任务提交)
+
+5.前4步完成后，每个文件夹内有13个文件，接下来直接提交check_convergence.sh文件进行自动计算。
+    可以完成结构优化-判断结构优化是否收敛-收敛后修改INCAR文件，进行scf单点结算-
+    判断scf是否收敛-收敛后修改INCAR文件，进行nscf非自洽计算。非自洽收敛后可以直接进行积分计算和速度计算。
