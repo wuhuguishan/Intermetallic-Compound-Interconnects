@@ -1,2 +1,3 @@
 # Intermetallic-Compound-Interconnects
 The code is organized into three main components: (1) machine learning models for performance prediction-machine learning, (2) the dataset and associated code for the decision tree model-decision tree model, and (3) the workflows and API‑based data retrieval employed in the DFT calculations used to verify model performance-API-Workflow.
+This project was completed by the Materials Genome Team from the School of Materials Science and Engineering, Zhengzhou University. We would like to thank Professors Yang Jiaqiang, Wang Chengduo, Wu Xiaochao, Niu Bingbo, Li Qingkui and He Jilin, and classmates Wang Pengzhen, Zhang Xiaofei, Zhang Ningyu, You Yubing, Wu Yijing for their contributions.
