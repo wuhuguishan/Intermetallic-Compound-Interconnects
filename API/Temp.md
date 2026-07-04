@@ -1,1 +1,1 @@
-shuomingwedagn 
+The API folder contains primarily the dataset of candidate points selected via Pareto‑frontier optimization, along with the scripts used to retrieve and download the relevant crystal structures from the Materials Project database.
